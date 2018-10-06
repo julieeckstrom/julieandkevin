@@ -6,6 +6,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Muli:400,700i,800|Playfair+Display:900" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/grid.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="assets/style.css" media="screen" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="assets/header.js" type="text/javascript"></script>
 	</head>
 
 	<div id="background-color"></div>
@@ -17,15 +19,17 @@
 			<div class="col d2 t3 m1">
 				<div class="col content section-header"></div><div class="col content section-body">
 					<header>
-						<ul>
+						<div id="mobile-menu-trigger">Menu</div>
+						<ul id="menu" class="closed">
 							<li><a href="#ceremony">Ceremony</a>
 							</li><li><a href="#events">Events</a>
 							</li><li><a href="#location">Location</a>
 							</li><li><a href="#lodging">Lodging</a>
 							</li><li><a href="#good-to-know">Good to Know</a>
 							</li><li><a href="#registry">Registry</a>
-							</li><li class="rsvp-button">RSVP</li>
+							</li>
 						</ul>
+						<div class="rsvp-button">RSVP</li>
 					</header>
 					<span class="display">hey friends, so we're gonna do this thing.</span>
 				</div>
@@ -34,13 +38,13 @@
 	</section>
 
 	<section class="container">
+		<a name="ceremony"></a>
 		<div class="col d2 background"></div>
 		<div class="col d2 background right"></div>
 		<div class="wrapper">
 			<div class="col d2 t3 m1">
 				<div class="col content section-header">
 					<div class="inner-padding">
-						<a name="ceremony"></a>
 						<h2>Ceremony</h2>
 					</div>
 				</div><div class="col content section-body">
@@ -54,12 +58,15 @@
 	</section>
 
 	<section class="container">
+		<a name="location"></a>
 		<div class="col d2 background"></div>
 		<div class="col d2 background right"></div>
 		<div class="wrapper">
 			<div class="col d2 t3 m1">
 				<div class="col content section-header">
-					<h2>Location</h2>
+					<div class="inner-padding">
+						<h2>Location</h2>
+					</div>
 				</div><div class="col content section-body">
 					<div class="inner-padding">
 						<h1>it's going to be at Gateway Lodge in Cook Forest, PA</h1>
@@ -72,13 +79,13 @@
 	</section>
 
 	<section class="container">
+		<a name="lodging"></a>
 		<div class="col d2 background"></div>
 		<div class="col d2 background right"></div>
 		<div class="wrapper">
 			<div class="col d2 t3 m1">
 				<div class="col content section-header">
 					<div class="inner-padding">
-						<a name="lodging"></a>
 						<h2>Lodging</h2>
 					</div>
 				</div><div class="col content section-body">
@@ -100,13 +107,13 @@
 	</section>
 
 	<section class="container">
+		<a name="events"></a>
 		<div class="col d2 background"></div>
 		<div class="col d2 background right"></div>
 		<div class="wrapper">
 			<div class="col d2 t3 m1">
 				<div class="col content section-header">
 					<div class="inner-padding">
-						<a name="events"></a>
 						<h2>Events</h2>
 					</div>
 				</div><div class="col content section-body">
@@ -125,13 +132,13 @@
 	</section>
 
 	<section class="container">
+		<a name="good-to-know"></a>
 		<div class="col d2 background"></div>
 		<div class="col d2 background right"></div>
 		<div class="wrapper">
 			<div class="col d2 t3 m1">
 				<div class="col content section-header">
 					<div class="inner-padding">
-						<a name="good-to-know"></a>
 						<h2>Good to Know</h2>
 					</div>
 				</div><div class="col content section-body">
@@ -145,13 +152,13 @@
 	</section>
 
 	<section class="container">
+		<a name="registry"></a>
 		<div class="col d2 background"></div>
 		<div class="col d2 background right"></div>
 		<div class="wrapper">
 			<div class="col d2 t3 m1">
 				<div class="col content section-header">
 					<div class="inner-padding">
-						<a name="registry"></a>
 						<h2>Registry</h2>
 					</div>
 				</div><div class="col content section-body">

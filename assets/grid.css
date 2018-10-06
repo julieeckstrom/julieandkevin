@@ -68,6 +68,18 @@
 		text-align: left;
 	}
 
+	.section-header {
+		margin-bottom: 15px;
+	}
+
+	.wrapper {
+		padding: 40px;
+	}
+
+	.inner-padding {
+		padding: 0px;
+	}
+
 }
 
 /* sticky header */
@@ -76,6 +88,17 @@ header {
 	top: 0;
 	position: fixed;
 	z-index: 100;
+}
+
+@media only screen and (max-width: 700px) {
+
+	header {
+		position: absolute;
+		height: 100%
+		background: #F3E4E4;
+		left: 0;
+		width: 100%;
+	}
 }
 
 
@@ -123,4 +146,10 @@ header {
 
 .wrapper.hero {
 	padding: 200px 0 160px 0;
+}
+
+@media only screen and (max-width: 700px) {
+	.wrapper.hero {
+		padding: 140px 40px 90px;
+	}
 }
