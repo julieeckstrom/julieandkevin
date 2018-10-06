@@ -47,6 +47,7 @@ table {
 
 light pink: 	#F3E4E4;
 black:			#000000;
+medium grey:	#4D4D4D;
 light grey:		#B3B3B3;
 
 header: 		'Playfair Display', serif
@@ -100,6 +101,39 @@ ul li {
 	font-size: 0.8em;
 }
 
+ul {
+	background: #ffffff;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #4D4D4D;
+	transition: color 0.15s;
+}
+
+ul li a:hover {
+	color: #F3E4E4;
+}
+
 p {
 	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+.rsvp-button {
+	background: #F3E4E4;
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px 0 0 20px;
+	cursor: pointer;
+	transition: background color 0.1s;
+}
+
+.rsvp-button:hover {
+	background: #000000;
+	color: #ffffff;
 }
