@@ -2,9 +2,7 @@
 	position: relative;
 }
 
-/* background that stretches full width */
-
-.background {
+.background {					/* background that stretches full width */
 	position: absolute;
 	top: 0;
 	z-index: -100;
@@ -16,16 +14,47 @@
 	left: 65%;
 }
 
+.col-right {					/* column in the pink */
+	width: 35%;
+}
+
+.col-left {						/* column in the white with content */
+	width: 65%;
+}
+
+.col-left .image {
+	margin-top: 30px;
+	overflow: hidden;
+	left: 25%;
+	position: relative;
+}
+
+.col-left .image img {
+	width: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
-	.background.right {
+	.background.right {			/* making the pink smaller when the screen shrinks */
 		left: 75%;
+	}
+
+	.col-right {
+		width: 25%;
+	}
+
+	.col-left {
+		width: 75%;
 	}
 }
 
 @media only screen and (max-width: 700px) {
 
-	.background {
+	.background {				/* removing all of the pink on mobile */
 		display: none !important;
+	}
+
+	.col-left, .col-right {
+		width: 100%;
 	}
 
 }
@@ -33,9 +62,9 @@
 /* wrapper containing the content */ 
 
 .wrapper {
-	max-width: 1200px;
+	max-width: 1100px;
 	margin: 0 auto;
-	padding: 80px 0;
+	padding: 60px 0;
 }
 
 .col {
@@ -53,12 +82,7 @@
 }
 
 .inner-padding {
-	padding: 0 10px;
-}
-
-@media only screen and (max-width: 1000px) {
-
-
+	padding: 0 20px 0 0;
 }
 
 @media only screen and (max-width: 700px) {
@@ -73,7 +97,8 @@
 	}
 
 	.wrapper {
-		padding: 40px;
+		width: 75%;
+		padding: 20px 0;
 	}
 
 	.inner-padding {
@@ -102,50 +127,10 @@ header {
 }
 
 
-/* column sizes */
-
-
-.d2 {
-	width: 50%;
-}
-
-.d1 {
-	width: 100%;
-}
-
-@media only screen and (max-width: 1000px) {
-
-	.t3 {
-		width: 75%;
-	}
-
-	.t2 {
-		width: 50%;
-	}
-
-	.t1 {
-		width: 100%;
-	}
-
-}
-
-@media only screen and (max-width: 700px) {
-
-	.m1 {
-		width: 100%;
-	}
-
-	.m-top {
-		width: 100%;
-	}
-
-}
-
-
 /* exceptions to the grid */
 
 .wrapper.hero {
-	padding: 200px 0 160px 0;
+	padding: 250px 0 230px 0;
 }
 
 @media only screen and (max-width: 700px) {

@@ -86,6 +86,10 @@ h2 {
 	padding-right: 30px;
 }
 
+h2.no-top-padding {
+	padding-top: 0px;
+}
+
 h3 {
 	font-weight: 800;
 	margin: 30px 0 5px 0;
@@ -95,34 +99,38 @@ a {
 	font-style: italic;
 }
 
-ul li {
-	display: inline-block;
-	padding: 15px;
-	background: #ffffff;
-	font-size: 1em;
-}
-
-ul {
-	background: #ffffff;
-}
-
-ul li a {
-	text-decoration: none;
-	color: #4D4D4D;
-	transition: color 0.15s;
-}
-
-ul li a:hover {
-	color: #F3E4E4;
-}
-
 p {
 	line-height: 1.5em;
 	margin-bottom: 10px;
 }
 
+#menu {
+	background: #ffffff;
+}
+
+#menu li {
+	display: inline-block;
+	background: #ffffff;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #4D4D4D;
+	transition: color 0.15s;
+	line-height: 60px;
+	padding: 15px;
+}
+
+#menu li a:hover {
+	color: #F3E4E4;
+}
+
 .rsvp-button {
-	position: absolute;
+	position: fixed;
+	margin: 20px;
+	top: 0;
+	right: 0;
+	font-weight: 900;
 	background: #A0CAA9;
 	height: 70px;
 	width: 70px;
@@ -130,11 +138,10 @@ p {
 	line-height: 70px;
 	text-align: center;
 	vertical-align: middle;
-	margin: 10px 0 0 20px;
 	cursor: pointer;
 	transition: background 0.1s;
 	display: inline-block;
-	box-shadow: 0px 1px 17px 0px #3a3a3a4f;
+	box-shadow: 0px 1px 10px 0px #3a3a3a4f;
 }
 
 .rsvp-button:hover {
@@ -157,13 +164,6 @@ p {
 	}
 
 	/* mobile menu */
-
-	.rsvp-button {
-		position: fixed;
-		top: 0;
-		right: 0;
-		margin: 10px;
-	}
 
 	#mobile-menu-trigger {
 		color: #4D4D4D;
