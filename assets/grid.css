@@ -11,15 +11,15 @@
 
 .background.right {				/* pink portion of the background */
 	background: #F3E4E4;
-	left: 65%;
+	left: 55%;
 }
 
 .col-right {					/* column in the pink */
-	width: 35%;
+	width: 45%;
 }
 
 .col-left {						/* column in the white with content */
-	width: 65%;
+	width: 55%;
 }
 
 .col-left .image {
