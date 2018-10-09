@@ -63,6 +63,14 @@ body {
 	color: #000000;
 }
 
+@media only screen and (max-width: 700px) {
+
+	body {
+		font-size: 16px;
+	}
+
+}
+
 .display, h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
