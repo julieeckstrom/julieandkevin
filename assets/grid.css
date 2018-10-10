@@ -12,6 +12,7 @@
 .background.right {				/* pink portion of the background */
 	background: #F3E4E4;
 	left: 55%;
+	z-index: 10;
 }
 
 .col-right {					/* column in the pink */
@@ -22,15 +23,34 @@
 	width: 55%;
 }
 
-.col-left .image {
-	margin-top: 30px;
-	overflow: hidden;
-	left: 25%;
+.col-left#location {
 	position: relative;
 }
 
-.col-left .image img {
-	width: 100%;
+.col-left#lodging {
+	margin-top: 400px;
+}
+
+.left-image {
+	height: 400px;
+	position: absolute;
+	top: 110%;
+}
+
+.left-image#cook-forest {
+	background: url(img/cook-forest.jpg) no-repeat;
+	background-size: 100%;
+	width: 600px;
+	margin-left: 10%;
+}
+
+.left-image#map {
+	background: url(img/map.png);
+	background-size: 120%;
+	left: 100%;
+	z-index: 100;
+	width: 500px;
+	opacity: 0.9;
 }
 
 @media only screen and (max-width: 1000px) {
