@@ -59,7 +59,7 @@ body: 			'Muli', sans-serif;
 body {
 	font-family: 'Muli', sans-serif;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 	color: #000000;
 }
 
@@ -78,12 +78,13 @@ body {
 
 .display {
 	font-size: 5.5em;
+	line-height: 0.9em;
 }
 
 h1 {
  	font-size: 3em;
  	margin-bottom: 30px;
- 	line-height: 1.1em;
+ 	line-height: 1.2em;
 }
 
 h2 {
@@ -105,28 +106,36 @@ h3 {
 
 a {
 	font-style: italic;
+	text-decoration: underline;
+	color: #12af92;
+}
+
+a:hover {
+	color: #000000;
+}
+
+a:visited {
+	color: #12af92;
 }
 
 p {
-	line-height: 1.5em;
+	line-height: 1.7em;
 	margin-bottom: 10px;
+	color: #333333;
 }
 
-#menu {
-	background: #ffffff;
-}
 
 #menu li {
 	display: inline-block;
-	background: #ffffff;
 }
 
 #menu li a {
 	text-decoration: none;
 	color: #4D4D4D;
-	transition: color 0.15s;
+	transition: color 0.1s;
 	line-height: 60px;
-	padding: 15px;
+	padding: 12px;
+	font-size: 0.9em;
 }
 
 #menu li a:hover {
@@ -139,7 +148,8 @@ p {
 	top: 0;
 	right: 0;
 	font-weight: 900;
-	background: #A0CAA9;
+	background: #000000;
+	color: #ffffff;
 	height: 70px;
 	width: 70px;
 	border-radius: 70px;
@@ -147,7 +157,7 @@ p {
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
-	transition: background 0.1s;
+	transition: height 0.1s;
 	display: inline-block;
 	box-shadow: 0px 1px 10px 0px #3a3a3a4f;
 }
@@ -155,10 +165,23 @@ p {
 .rsvp-button:hover {
 	background: #000000;
 	color: #ffffff;
+	height: 80px;
+	width: 80px;
 }
 
 #mobile-menu-trigger {
 	display: none;
+}
+
+#logo {
+	position: absolute;
+    height: 46px;
+    width: 45px;
+    top: 10px;
+    left: 20px;
+    opacity: 0.2;
+    background: url(img/jk.png);
+    background-size: 100%;
 }
 
 @media only screen and (max-width: 700px) {
