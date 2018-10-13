@@ -191,6 +191,13 @@ header {
     background-size: 100%;
 }
 
+@media only screen and (max-width: 1000px) {
+
+	#menu li a {
+		padding: 0 15px;
+	}
+}
+
 @media only screen and (max-width: 700px) {
 	.display {
 		font-size: 4em;
