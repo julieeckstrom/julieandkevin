@@ -59,6 +59,11 @@
 	opacity: 0.9;
 }
 
+footer {
+	text-align: center;
+	background: #D9C1C1;
+}
+
 @media only screen and (max-width: 1000px) {
 	.background.right {			/* making the pink smaller when the screen shrinks */
 		left: 75%;
