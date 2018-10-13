@@ -9,6 +9,10 @@
 	height: 100%;
 }
 
+.background.left {
+	background: #ffffff;
+}
+
 .background.right {				/* pink portion of the background */
 	background: #F3E4E4;
 	left: 55%;
@@ -111,6 +115,10 @@
 	padding: 60px 0;
 }
 
+header .wrapper {
+	padding: 0px;
+}
+
 .col {
 	display: inline-block;
 	vertical-align: top;
@@ -155,7 +163,7 @@
 
 header {
 	top: 0;
-	position: absolute;
+	position: fixed;
 	z-index: 100;
 }
 
