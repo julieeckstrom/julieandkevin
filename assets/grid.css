@@ -27,11 +27,11 @@
 	width: 55%;
 }
 
-.col-left#location {
+.col-left#location-section {
 	position: relative;
 }
 
-.col-left#lodging {
+.col-left#lodging-section {
 	margin-top: 400px;
 }
 
@@ -101,7 +101,7 @@
 		margin-top: 20px;
 	}
 
-	.col-left#lodging {
+	.col-left#lodging-section {
 		margin-top: 0px;
 	}
 
