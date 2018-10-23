@@ -151,6 +151,7 @@
 
 	.inner-padding {
 		padding: 0px;
+		overflow: hidden;
 	}
 
 }
@@ -172,6 +173,10 @@ header {
 		background: #F3E4E4;
 		left: 0;
 		width: 100%;
+	}
+	
+	.container {
+		overflow: hidden;
 	}
 }
 
