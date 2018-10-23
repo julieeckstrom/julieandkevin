@@ -176,8 +176,11 @@ header {
 		width: 60%;
 	}
 	
+	#rsvp:hover {
+		color: #ffffff !important;
+	
 	.button:hover {
-		box-shadow: none;
+		box-shadow: none !important;
 	}
 }
 
