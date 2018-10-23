@@ -76,6 +76,7 @@
 
 	.background {				/* removing all of the pink on mobile */
 		display: none !important;
+		width: 0%;
 	}
 
 	.col-left, .col-right {
