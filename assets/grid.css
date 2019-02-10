@@ -13,8 +13,8 @@
 	background: #ffffff;
 }
 
-.background.right {				/* pink portion of the background */
-	background: #F3E4E4;
+.background.right {				/* pink portion of the background #F3E4E4 */
+	background: #ffffff;
 	left: 55%;
 	z-index: 10;
 }
