@@ -1,5 +1,6 @@
 .container {
 	position: relative;
+
 }
 
 .background {					/* background that stretches full width */
@@ -9,63 +10,36 @@
 	height: 100%;
 }
 
-.background.left {
-	background: #ffffff;
+.col {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding-right: 40px;
 }
 
-.background.right {				/* pink portion of the background #F3E4E4 */
-	background: #ffffff;
-	left: 55%;
-	z-index: 10;
+.col-100 {						/* one column layout */
+	width: 80%;
+	margin: 0 auto;
 }
 
-.col-right {					/* column in the pink */
-	width: 45%;
+.col-50 {						/* two column layout */
+	width: 50%;
 }
 
-.col-left {						/* column in the white with content */
-	width: 55%;
+.col-3rd {						/* two column layout */
+	width: 33.33333333%;
 }
 
-.col-left#location-section {
-	position: relative;
+/* wrapper containing the content */ 
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 90px 0;
 }
 
-.left-image {
-	height: 400px;
-	position: absolute;
-	top: 110%;
-}
-
-.left-image#cook-forest {
-	background: url(img/cook-forest.jpg) no-repeat;
-	background-size: 100%;
-	background-position: 50% 50%;
-	width: 600px;
-	margin-left: 10%;
-}
-
-.left-image#map {
-	background: url(img/map.png) no-repeat;
-	background-size: 120%;
-	background-position: 50% 50%;
-	left: 100%;
-	z-index: 100;
-	width: 500px;
-}
-
-@media only screen and (max-width: 1000px) {
-	.background.right {			/* making the pink smaller when the screen shrinks */
-		left: 75%;
-	}
-
-	.col-right {
-		width: 25%;
-	}
-
-	.col-left {
-		width: 75%;
-	}
+.inner-padding {
+	padding: 0 60px 0 0;
 }
 
 @media only screen and (max-width: 700px) {
@@ -101,32 +75,6 @@
 		margin-top: 0px;
 	}
 
-}
-
-/* wrapper containing the content */ 
-
-.wrapper {
-	max-width: 1100px;
-	margin: 0 auto;
-	padding: 60px 0;
-}
-
-.col {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.section-header {
-	width: 20%;
-	text-align: right;
-}
-
-.section-body {
-	width: 80%;
-}
-
-.inner-padding {
-	padding: 0 60px 0 0;
 }
 
 @media only screen and (max-width: 1000px) {
