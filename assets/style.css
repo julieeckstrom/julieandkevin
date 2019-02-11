@@ -105,12 +105,12 @@ h3 {
 }
 
 a {
-	text-decoration: underline;
-	color: #12af92;
+	text-decoration: none;
+	color: #215ed6;
 }
 
 a:hover {
-	color: #000000;
+	text-decoration: underline;
 }
 
 a:visited {
@@ -192,11 +192,19 @@ header {
 	padding: 60px;
 }
 
+/* Checkboxes */
+
 input[type="checkbox"] {
 	opacity: 0;
 	position: absolute;
 	height: 26px;
 	width: 26px;
+}
+
+ul.checkboxes {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
 }
 
 ul.checkboxes li {
@@ -254,6 +262,27 @@ ul.checkboxes li {
     content: "";
 }
 
+
+/* Schedule */
+
+ul.schedule li {
+	padding: 16px 0;
+	position: relative;
+}
+
+ul.schedule li .time, ul.schedule li .event {
+	position: absolute;
+	font-weight: 400;
+    color: #2b2b2b;
+}
+
+ul.schedule li .event {
+	left: 80px;
+}
+
+ul.schedule li .time {
+	font-weight: 800;
+}
 
 @media only screen and (max-width: 700px) {
 	#rsvp {
