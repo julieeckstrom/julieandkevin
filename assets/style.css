@@ -267,22 +267,29 @@ ul.checkboxes li {
 
 /* Schedule */
 
+ul.schedule {
+	margin: 20px 0;
+}
+
 ul.schedule li {
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 	position: relative;
+	line-height: 1.5em;
 }
 
 ul.schedule li .time, ul.schedule li .event {
-	position: absolute;
 	font-weight: 400;
     color: #2b2b2b;
+    display: inline-block;
+    vertical-align: top;
 }
 
 ul.schedule li .event {
-	left: 80px;
+	max-width: 70%;
 }
 
 ul.schedule li .time {
+	width: 100px;
 }
 
 @media only screen and (max-width: 700px) {
