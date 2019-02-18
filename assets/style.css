@@ -125,9 +125,10 @@ p {
 }
 
 .caption {
+	color: #3e3e3e;
+	font-weight: 300;
 	font-style: italic;
-	font-size: 14px;
-	color: #a2a2a2;
+	line-height: 1.6em;
 }
 
 
@@ -289,7 +290,9 @@ ul.schedule li .event {
 }
 
 ul.schedule li .time {
-	width: 100px;
+	width: 90px;
+	font-weight: 600;
+	font-size: 15px;
 }
 
 @media only screen and (max-width: 700px) {
